@@ -1,0 +1,25 @@
+abstraction:
+- tsy afaka instanciena ny class abstract
+
+interface
+- ametrahana standard anaty App (implementer fa tsy heriter na instanciena)
+- ahafahama mi-typé ny fonction avy eo
+- ahafahama mfoctoriser type netsaka ohatra Toyota|Ford|Mazda etc.... $car -> CarInterface $car
+
+factory=> fomba icréena class
+
+require => ahafahama maka ilay fichier ivelan'ny class
+autolod
+  - from scratc
+  - composer
+
+
+
+
+EXO -----
+Ordinateur
+computerIterface -> screenSize, ram, cpu, storage, display(retina|led...); os; marque; type(Poetable|bureau)
+Implementation: HP, Macbook, Thinkpad, dell, Acer
+Factory: ComputerFactory(ComputerInterface)-> makeComputer->$computer 
+Autoload
+

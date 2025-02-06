@@ -1,0 +1,16 @@
+{
+    "name": "phpreview/exo2_computer",
+    "description": "exo computer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Phpreview\\Exo2Computer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sanha"
+        }
+    ],
+    "require": {}
+}
